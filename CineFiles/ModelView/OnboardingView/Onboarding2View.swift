@@ -38,7 +38,11 @@ struct Onboarding2View: View {
                     .fontWeight(.medium)
                     
                 VStack {
-                    Text("Aqui você recebe apenas o filé do cinema!\n\nSalve seus \(Text("favoritos").foregroundStyle(.rosao).fontWeight(.medium)) e deixe marcado quais filmes você quer \(Text("assistir").foregroundStyle(.verdao).fontWeight(.medium)) depois")
+                    Text("""
+                         Aqui você recebe apenas o filé do cinema!\n\nSalve seus \(Text("favoritos").foregroundStyle(.rosao).fontWeight(.bold)) \(Text(Image(systemName: "heart.fill")).foregroundStyle(.rosao)) e deixe marcado quais filmes você quer \(Text("assistir")
+                         .foregroundStyle(.verdao)
+                         .fontWeight(.bold)) \(Text(Image(systemName: "bookmark.fill")).foregroundStyle(.verdao)) depois
+                         """)
                         .foregroundStyle(.branCE)
                         .font(.system(size:16))
                 }.frame(width: 361, alignment: .leading)
@@ -53,10 +57,10 @@ struct Onboarding2View: View {
 //                            .clipShape(.buttonBorder)
 //                            .overlay(
 //                                        RoundedRectangle(cornerRadius: 12)
-//                                            .stroke(Color.rosao, lineWidth: 1) // contorno branco com 2pt de espessura
+//                                            .stroke(Color.rosao, lineWidth: 1)
 //                                    )
-//                            
-//                            
+//
+//
 //                    }
 //                    Button {
 //                    }label:{
@@ -66,8 +70,8 @@ struct Onboarding2View: View {
 //                            .foregroundStyle(.branCE)
 //                            .background(.rosao)
 //                            .clipShape(.buttonBorder)
-//                        
-//                            
+//
+//
 //                    }
 //                } .padding(.top, 16)
                 
