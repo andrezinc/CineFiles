@@ -13,5 +13,4 @@ O design e a programação foram desenvolvidos em conjunto, com atenção especi
 Nos baseamos na IDV apresentada para criar nossa interface. Demos preferência aos elementos arredondados, com um contorno branco nas capas de filme. Usamos o tom preto com um gradiente azul para criar profundidade no catálogo e as cores rosa e verde para diferenciar o item favorito do item salvo para assistir.
 
 Criado por:
-Luiza Gomide 
-Andre Castilhano 
+Luiza Gomide e Andre Castilhano 
