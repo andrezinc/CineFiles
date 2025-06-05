@@ -40,6 +40,8 @@ struct ViewConta: View {
                     .bold()
                     .foregroundStyle(.white)
                     .font(.system(size:30))
+                    .padding(.bottom, 24)
+                
                 VStack(alignment: .leading,spacing: 20){
                     Text("Filmes favoritos")
                         .foregroundStyle(.branCE)

@@ -25,7 +25,9 @@ struct Onboarding3View: View {
                 .fontWeight(.medium)
             
             VStack {
-                Text("Um espaço personalizado só para você!\n\nDescubra novos filmes pensados para você, baseado nos seus \(Text("interesses").foregroundStyle(.verdao).fontWeight(.medium))")
+                Text("""
+Um espaço personalizado só para você!\n\nDescubra novos filmes pensados para você, baseado nos seus \(Text("interesses").foregroundStyle(.verdao).fontWeight(.bold)) \(Text(Image(systemName: "sparkle")).foregroundStyle(.verdao).fontWeight(.medium))
+""")
                     .foregroundStyle(.branCE)
                     .font(.system(size:16))
                 

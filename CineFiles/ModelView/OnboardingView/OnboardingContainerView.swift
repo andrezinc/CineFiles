@@ -41,13 +41,12 @@ struct OnboardingContainerView: View {
                             endPoint: .bottom
                         )
                         ZStack{
-                            if(selecao==0){ // Na primeira vez ele coloca
                                 Spacer()
                                 Image("fundofilmes") //
                                     .resizable()
                                     .scaledToFit()
                                     .offset(y:300)
-                            }
+                            
                         }
                     }
                 )
